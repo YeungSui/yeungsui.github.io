@@ -5,14 +5,17 @@
   
   <title>Leetcode 10. 正则表达式匹配 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="coding">
+  <meta name="description" content="###题目Implement regular expression matching with support for &amp;#39;.&amp;#39; and &amp;#39;*&amp;#39;.    ‘.’ Matches any single character.    ‘*’ Matches zero or more of the preceding element. The matching should">
+<meta name="keywords" content="coding">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Leetcode 10. 正则表达式匹配">
 <meta property="og:url" content="http://yoursite.com/2017/10/25/article-title/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:updated_time" content="2017-10-25T16:26:24.000Z">
+<meta property="og:description" content="###题目Implement regular expression matching with support for &amp;#39;.&amp;#39; and &amp;#39;*&amp;#39;.    ‘.’ Matches any single character.    ‘*’ Matches zero or more of the preceding element. The matching should">
+<meta property="og:updated_time" content="2017-10-25T16:28:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode 10. 正则表达式匹配">
+<meta name="twitter:description" content="###题目Implement regular expression matching with support for &amp;#39;.&amp;#39; and &amp;#39;*&amp;#39;.    ‘.’ Matches any single character.    ‘*’ Matches zero or more of the preceding element. The matching should">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -83,11 +86,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>###题目<br>Implement regular expression matching with support for <code>&#39;.&#39;</code> and <code>&#39;*&#39;</code>.<br>    ‘.’ Matches any single character.<br>    ‘*’ Matches zero or more of the preceding element.</p>
+<pre><code>The matching should cover the entire input string (not partial).
+
+The function prototype should be:
+bool isMatch(const char *s, const char *p)
+
+Some examples:
+isMatch(&quot;aa&quot;,&quot;a&quot;) → false
+isMatch(&quot;aa&quot;,&quot;aa&quot;) → true
+isMatch(&quot;aaa&quot;,&quot;aa&quot;) → false
+isMatch(&quot;aa&quot;, &quot;a*&quot;) → true
+isMatch(&quot;aa&quot;, &quot;.*&quot;) → true
+isMatch(&quot;ab&quot;, &quot;.*&quot;) → true
+isMatch(&quot;aab&quot;, &quot;c*a*b&quot;) → true
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/25/article-title/" data-id="cj9795d780000twviwomedqjt" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/10/25/article-title/" data-id="cj9798jv20001k4vi3bv8ttt0" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li></ul>
